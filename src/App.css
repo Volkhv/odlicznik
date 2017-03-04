@@ -1,0 +1,64 @@
+body {
+  background-image: url("tlo1.jpg");
+
+  background-color: #3c4452;
+  color: #fff;
+}
+.App {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #65a68e;
+  background: rgba(53,60,72, 0.7);
+
+
+}
+
+.App-title {
+  font-size: 50px;
+}
+
+.Clock-days, .Clock-hours, .Clock-minutes, .Clock-seconds {
+  display: inline;
+  margin: 10px;
+}
+
+.Deadline-input {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.Header {
+  font-size: 20px;
+  position: relative;
+  height:50px;
+  background:#F0F0F0;
+  border-bottom:3px solid #65a68e;
+  margin:0px auto;
+  padding-top: 10px;
+  padding-left: 40px;
+  background-color: #353c48;
+  }
+
+.Right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #65a68e;
+    padding: 20px;
+}
+
+.Footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #353c48;
+  text-align: center;
+}
